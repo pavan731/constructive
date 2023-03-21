@@ -13,14 +13,14 @@ pipeline{
              
 	     steps{
                   
-		  sh ' git clone https://gitlab.com/spshariq6/wedding.git -b master '
+		  sh ' git clone https://github.com/pavan731/constructive.git -b master '
 
 	     }
  
 	}
 	stage('deploy'){
               steps{
-                sh 'mv wedding/* ../../../../www/html'
+                sh 'mv constructive/* ../../../../www/html'
 	      }
 	}
      
